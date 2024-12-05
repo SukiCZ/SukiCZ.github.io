@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SukiCZ on github.io</title>
+        <style>
+            body {
+                background-color: #111111;
+                color: #F8F8F8;
+                font-family: monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="message">Okay, people, move along. There's nothing to see here.</p>
+        <!-- https://youtu.be/t-zyDnBgSpc?t=51 -->
+        <script>
+            const message = document.getElementById("message");
+            message.addEventListener("click", () => {
+                alert("What's the trouble? Where's the body?");
+            });
+        </script>
+    </body>
+</html>
